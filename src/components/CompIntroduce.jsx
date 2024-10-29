@@ -59,7 +59,7 @@ const CompIntroduce = () => {
             onLoadMap(); // 스크립트가 이미 로드된 경우 바로 지도 생성
         } else {
             const script = document.createElement('script');
-            script.src = 'https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=';
+            script.src = 'https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=srbxbvs7lt';
             script.async = true;
             script.onload = onLoadMap;
             document.head.appendChild(script);
@@ -74,7 +74,6 @@ const CompIntroduce = () => {
             <div className="timeline">
                 <div className="timeline-container left-container">
                     <img src="img/timeline01.png" alt="타임라인"/> 
-                    {/* <!-- 각자 사진으로 넣어주쉐요 ^ㅜ^ --> */}
                     <div className="text-box">
                         <h2>Project personnel</h2>
                         <small>24.09.20 - 24.09.24</small>
@@ -143,17 +142,17 @@ const CompIntroduce = () => {
                 <h2>Our Team</h2>
                 <div className="team-container">
                     <div className="team-card">
-                        <img src="img/man.png" alt="프로필사진"/>
+                        <img src="img/Rocomi.jpg" alt="프로필사진"/>
                         <h3>Rocomi</h3>
                         <p>Project Manager</p>
                     </div>
                     <div className="team-card">
-                        <img src="img/man.png" alt="프로필사진"/>
+                        <img src="img/Zeus.jpg" alt="프로필사진"/>
                         <h3>Zeus</h3>
                         <p>Project Member</p>
                     </div>
                     <div className="team-card">
-                        <img src="img/man.png" alt="프로필사진"/>
+                        <img src="img/Download.jpg" alt="프로필사진"/>
                         <h3>Download</h3>
                         <p>Project Member</p>
                     </div>

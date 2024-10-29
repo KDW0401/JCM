@@ -9,19 +9,20 @@ import MainMethod from './mainPage/MainMethod';
 import MainEmail from './mainPage/MainEmail';
 
 const MainPage = () => {
-  return (
-    <>
-      <PageMain />  {/* 여기서 PageMain이 불러와집니다 */}
-      <Chat />
-      <MainInfo />
-      <MainSimulation />
-      <MainReferences />
-      <MainDescribe />
-      <MainMethod />
-      <MainEmail />
-      <hr />
-    </>
-  );
+
+    return (
+        <>
+            <PageMain/>
+            <Chat/>
+            <MainInfo/>
+            <MainSimulation/>
+            <MainReferences/>
+            <MainDescribe/>
+            <MainMethod/>
+            <MainEmail/>
+            <hr></hr>
+        </>
+    );
 };
 
 export default MainPage;
