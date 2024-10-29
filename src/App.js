@@ -13,7 +13,7 @@ import PostPage from './components/post/PostPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='JCM'>
 
       <MenuBar />
 
