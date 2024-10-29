@@ -59,7 +59,7 @@ const CompIntroduce = () => {
             onLoadMap(); // 스크립트가 이미 로드된 경우 바로 지도 생성
         } else {
             const script = document.createElement('script');
-            script.src = 'https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=srbxbvs7lt';
+            script.src = 'https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=';
             script.async = true;
             script.onload = onLoadMap;
             document.head.appendChild(script);
@@ -73,7 +73,7 @@ const CompIntroduce = () => {
                 </Helmet>
             <div className="timeline">
                 <div className="timeline-container left-container">
-                    <img src={"${process.env.PUBLIC_URL}/img/timeline01.png"} alt="타임라인"/> 
+                    <img src={"${process.env.PUBLIC_URL}/timeline01.png"} alt="타임라인"/> 
                     {/* <!-- 각자 사진으로 넣어주쉐요 ^ㅜ^ --> */}
                     <div className="text-box">
                         <h2>Project personnel</h2>
