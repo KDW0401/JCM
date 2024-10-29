@@ -1,18 +1,17 @@
-import '../../css/PostPage.css';
+import '../../css/Questions.css';
 import Pagination from 'react-bootstrap/Pagination';
 import Table from 'react-bootstrap/Table';
 import { NavLink } from 'react-router-dom';
-import FrequentlyQuestions from './FrequentlyQuestions';
 
-const PostPage = () => {
+const Questions = () => {
     return (
-        <div className="post-container">
-            <div className="post-banner">
+        <div className="questions-container">
+            <div className="questions-banner">
                 <img src="/img/banner.png" alt="Banner" />
-                <h1>고객지원</h1>
+                <h1>문의사항</h1>
             </div>
-            <div className="post-header">
- <ul>
+            <div className="questions-header">
+                <ul>
                     <li>전체</li>
                     <li>작업</li>
                     <li>업데이트</li>
@@ -27,10 +26,9 @@ const PostPage = () => {
                         <li><NavLink to="/Support/Questions">문의사항</NavLink></li>
                     </ul>
                 </div>
-            <div className="post-table">
+            <div className="questions-table">
                 <Table hover responsive borderless>
                     <tbody>
-
                         <tr>
                             <td>작업</td>
                             <td>네이버톡스 경영자원 API 출시 안내</td>
@@ -75,8 +73,8 @@ const PostPage = () => {
                     <Pagination.Last />
                 </Pagination>
             </div>
-            <FrequentlyQuestions />
-    </div>
+        </div>
     );
-}
-export default PostPage;
+};
+
+export default Questions;

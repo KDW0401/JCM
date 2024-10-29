@@ -25,14 +25,13 @@ const SignIn = () => {
     }
 
     return (
-        <div className="signIn-container">
-            <div className="image-section">
-                <video muted autoPlay loop>
-                    <source src='references/login.mp4' type="video/mp4" />
-                </video>
-            </div>
-
-            <div className="form-section hidden" id="signup-form">
+            <div className="signIn-container">
+                <div className="image-section">
+                    <video muted autoPlay loop>
+                        <source src='/resources/login.mp4' type="video/mp4" />
+                    </video>
+                </div>
+                <div className="form-section hidden" id="signup-form">
                 <h1>Sign Up</h1>
                 <p>Joy Code Me의 Content 를 즐기고 싶다면 로그인하세요.</p>
                 <form id="signupForm">
