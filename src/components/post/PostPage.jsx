@@ -6,7 +6,7 @@ const PostPage = () => {
         <div className="post-page">
         <div className="main">
             <div className="mainTop-img">
-                <img src="/img/후보 3.jpg" alt="logoImg" />
+                <img src="JCM/img/후보 3.jpg" alt="logoImg" />
             </div>
 
             <div className="menubar-div">
