@@ -26,7 +26,7 @@ const ChangePwd = () => {
                         placeholder="현재 비밀번호"
                     />
                     <i 
-                        className={`fa ${isCurrentPwdVisible ? "fa-eye-slash" : "fa-eye"} show-hide`}
+                        className={`fa ${isCurrentPwdVisible ? "fa-eye" : "fa-eye-slash"} show-hide`}
                         onClick={() => setCurrentPwdVisible(!isCurrentPwdVisible)}
                     ></i>
                 </div>
@@ -40,7 +40,7 @@ const ChangePwd = () => {
                         placeholder="새로운 비밀번호"
                     />
                     <i 
-                        className={`fa ${isNewPwdVisible ? "fa-eye-slash" : "fa-eye"} show-hide`}
+                        className={`fa ${isNewPwdVisible ? "fa-eye" : "fa-eye-slash"} show-hide`}
                         onClick={() => setNewPwdVisible(!isNewPwdVisible)}
                     ></i>
                 </div>
@@ -54,7 +54,7 @@ const ChangePwd = () => {
                         placeholder="새로운 비밀번호 확인"
                     />
                     <i 
-                        className={`fa ${isConfirmPwdVisible ? "fa-eye-slash" : "fa-eye"} show-hide`}
+                        className={`fa ${isConfirmPwdVisible ? "fa-eye" : "fa-eye-slash"} show-hide`}
                         onClick={() => setConfirmPwdVisible(!isConfirmPwdVisible)}
                     ></i>
                 </div>
