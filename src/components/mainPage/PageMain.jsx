@@ -9,7 +9,7 @@ const DotSVG = () => {
     <svg className="dot-container" viewBox="0 0 500 500">
       {[...Array(21)].map((_, layerIndex) => {
         const radius = 160 - layerIndex * 8; // 각 레이어마다 반지름 감소
-        const numDots = 120- layerIndex * 5; // 점의 개수
+        const numDots = 120 - layerIndex * 5; // 점의 개수
         return [...Array(numDots)].map((_, i) => {
           const angle1 = (i / (numDots / 2)) * Math.PI + 1.6; // 원1 각도 계산
           const x1 = centerX + radius * Math.cos(angle1); // x 좌표
@@ -46,15 +46,17 @@ const DotSVG = () => {
 };
 
 const PageMain = () => {
-    return(
-        <div className="main-top">
-            <DotSVG />
-            <div className="center-logo">
-                <h1>JOY CODE ME</h1>
-                <h2>AUTOMATIC CODING</h2>
-            </div>
-            <video className="bg-video" src="resources/main.mp4" muted autoPlay playsInline loop></video>
-        </div>
-    )
-}
+  return (
+    <div className="main-top">
+      {/* DotSVG 컴포넌트 호출 */}
+      <DotSVG />
+      <div className="center-logo">
+        <h1>JOY CODE ME</h1>
+        <h2>AUTOMATIC CODING</h2>
+      </div>
+      <video className="bg-video" src="resources/main.mp4" muted autoPlay playsInline loop></video>
+    </div>
+  );
+};
+
 export default PageMain;
