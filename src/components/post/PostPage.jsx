@@ -8,7 +8,7 @@ const PostPage = () => {
     return (
         <div className="post-container">
             <div className="post-banner">
-                <img src="/img/banner.png" alt="Banner" />
+                <img src="img/banner.png" alt="Banner" />
                 <h1>고객지원</h1>
             </div>
             <div className="post-header">

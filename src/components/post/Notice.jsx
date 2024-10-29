@@ -7,7 +7,7 @@ const Notice = () => {
     return (
         <div className="project-container">
             <div className="project-banner">
-                <img src="/img/banner.png" alt="Banner" />
+                <img src="img/banner.png" alt="Banner" />
                 <h1>공지사항</h1>
             </div>
             <div className="project-header">

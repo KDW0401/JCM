@@ -1,10 +1,7 @@
 import '../../css/SignIn.css'
 import 'font-awesome/css/font-awesome.min.css';
-import { useState } from 'react';
 
 const SignIn = () => {
-    // 초기 아이콘 상태를 useState로 관리
-    const [isPasswordVisible, setPasswordVisible] = useState(false);
 
     function toggleForms() {
         document.getElementById('signup-form').classList.toggle('hidden');
@@ -28,7 +25,7 @@ const SignIn = () => {
             <div className="signIn-container">
                 <div className="image-section">
                     <video muted autoPlay loop>
-                        <source src='/resources/login.mp4' type="video/mp4" />
+                        <source src='resources/login.mp4' type="video/mp4" />
                     </video>
                 </div>
                 <div className="form-section hidden" id="signup-form">
