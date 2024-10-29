@@ -5,7 +5,7 @@ const MenuBar = () => {
     return(
         <div className="navbar">
             <div className="logo">
-            <img src="../logoImg/menubar_logo(none).JPG" className="logoImg"/>
+            <img src="img/menubar_logo(none).JPG" className="logoImg"/>
             <Link to="/">JCM</Link>
             </div>
             <ul>
