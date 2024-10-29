@@ -59,7 +59,7 @@ const CompIntroduce = () => {
             onLoadMap(); // 스크립트가 이미 로드된 경우 바로 지도 생성
         } else {
             const script = document.createElement('script');
-            script.src = 'https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=';
+            script.src = 'https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=srbxbvs7lt';
             script.async = true;
             script.onload = onLoadMap;
             document.head.appendChild(script);
@@ -73,7 +73,7 @@ const CompIntroduce = () => {
                 </Helmet>
             <div className="timeline">
                 <div className="timeline-container left-container">
-                    <img src={"img/timeline01.png"} alt="타임라인"/> 
+                    <img src="img/timeline01.png" alt="타임라인"/> 
                     {/* <!-- 각자 사진으로 넣어주쉐요 ^ㅜ^ --> */}
                     <div className="text-box">
                         <h2>Project personnel</h2>
@@ -85,7 +85,7 @@ const CompIntroduce = () => {
                 </div>
 
                 <div className="timeline-container right-container">
-                    <img src={"img/timeline02.png"} alt="타임라인"/>
+                    <img src="img/timeline02.png" alt="타임라인"/>
                     <div className="text-box">
                         <h2>Create a team name</h2>
                         <small>24.09.24 - 24.09.26</small>
@@ -95,7 +95,7 @@ const CompIntroduce = () => {
                 </div>
 
                 <div className="timeline-container left-container">
-                    <img src={"img/timeline03.png"} alt="타임라인"/>
+                    <img src="img/timeline03.png" alt="타임라인"/>
                     <div className="text-box">
                         <h2>Project planning</h2>
                         <small>24.09.26 - 24.09.30</small>
@@ -105,7 +105,7 @@ const CompIntroduce = () => {
                 </div>
 
                 <div className="timeline-container right-container">
-                    <img src={"img//timeline04.png"} alt="타임라인"/>
+                    <img src="img/timeline04.png" alt="타임라인"/>
                     <div className="text-box">
                         <h2>Configuring a Project</h2>
                         <small>24.09.30 - 24.10.28</small>
@@ -115,7 +115,7 @@ const CompIntroduce = () => {
                 </div>
 
                 <div className="timeline-container left-container">
-                    <img src={"img/timeline05.png"} alt="타임라인"/>
+                    <img src="img/timeline05.png" alt="타임라인"/>
                     <div className="text-box">
                         <h2>Project completion</h2>
                         <small>24.10.28 - 24.11.25</small>
@@ -143,22 +143,22 @@ const CompIntroduce = () => {
                 <h2>Our Team</h2>
                 <div className="team-container">
                     <div className="team-card">
-                        <img src={"img/man.png"} alt="프로필사진"/>
+                        <img src="img/man.png" alt="프로필사진"/>
                         <h3>Rocomi</h3>
                         <p>Project Manager</p>
                     </div>
                     <div className="team-card">
-                        <img src={"img/man.png"} alt="프로필사진"/>
+                        <img src="img/man.png" alt="프로필사진"/>
                         <h3>Zeus</h3>
                         <p>Project Member</p>
                     </div>
                     <div className="team-card">
-                        <img src={"img/man.png"} alt="프로필사진"/>
+                        <img src="img/man.png" alt="프로필사진"/>
                         <h3>Download</h3>
                         <p>Project Member</p>
                     </div>
                     <div className="team-card">
-                        <img src={"img/woman.png"} alt="프로필사진"/>
+                        <img src="img/woman.png" alt="프로필사진"/>
                         <h3>2weeks</h3>
                         <p>Project Member</p>
                     </div>
