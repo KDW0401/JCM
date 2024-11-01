@@ -50,3 +50,8 @@
   .user-options Link{
     margin: 0px 10px;
   }
+  .user-options a {
+    margin: 0px 10px;
+    color: white;
+    text-decoration: none;
+  }

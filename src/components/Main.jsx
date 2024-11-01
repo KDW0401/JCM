@@ -35,7 +35,7 @@ const Main = () => {
         scrollCallback: onScroll,
         sectionClassName: "section",
         anchors: ['home', 'info', 'simulation', 'references', 'describe', 'method', 'email'],
-        scrollBar: false,  // fullpage 스크롤 기능 유지
+        scrollBar: true,  // 스크롤 바 활성화
         navigation: true,
         verticalAlign: false,
         arrowNavigation: true,

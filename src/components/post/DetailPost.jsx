@@ -53,7 +53,7 @@ const DetailPost = () => {
             <button className="file-button" onClick={toggleAttachment}>첨부파일</button>
             {isAttachmentOpen && (
               <div className="attachment">
-                <a href="img/후보 3.jpg" download>사진</a><br />
+                <a href="./img/후보 3.jpg" download>사진</a><br />
                 <a href="#" download>첨부파일이 어디까지 늘어날 수 있을 지 실험</a>
               </div>
             )}
@@ -72,7 +72,7 @@ const DetailPost = () => {
               </tr>
               <tr>
                 <td>
-                  <img src="img/후보 3.jpg" alt="프로필사진" className="profile-image" />
+                  <img src="./img/후보 3.jpg" alt="프로필사진" className="profile-image" />
                 </td>
               </tr>
             </tbody>
@@ -91,7 +91,7 @@ const DetailPost = () => {
             {comments.map((comment) => (
               <li key={comment.id} className="comment-item">
                 <div className="comment-header">
-                  <img src="img/profile.jpg" alt="프로필 사진" className="comment-profile-image" />
+                  <img src="./img/profile.jpg" alt="프로필 사진" className="comment-profile-image" />
                   <div className="comment-body">
                     <div className="comment-userId">익명</div>
                     <div className="comment-content">{comment.text}</div>
@@ -108,7 +108,7 @@ const DetailPost = () => {
                   <ul key={reply.id} className="replies-list">
                     <li className="reply-item">
                       <div className="reply-content">
-                        <img src="img/profile.jpg" alt="프로필 사진" className="reply-profile-image" />
+                        <img src="./img/profile.jpg" alt="프로필 사진" className="reply-profile-image" />
                         <div className="reply-body">
                           <span className="reply-userId">익명</span>
                           <span>{reply.text}</span>

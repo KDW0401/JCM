@@ -81,25 +81,25 @@ const MainReferences =() => {
                         html, css, react 등이 있고 이외의 언어도 사용자가 원하는 범위 내에서 사용가능 합니다.
                     </p>
                     <p>
-                        <img src="img/css-icon.png" alt="" />
-                        <img src="img/html5-icon.png" alt="" />
-                        <img src="img/react-icon.png" alt="" />
+                        <img src="./img/css-icon.png" alt="" />
+                        <img src="./img/html5-icon.png" alt="" />
+                        <img src="./img/react-icon.png" alt="" />
                     </p>
                 </div>
                 <div className="box">
                     <p>Function</p>
                     <p>저희 JCM의 기능들은 사용자가 원하는 언어 기반으로 java, javascript, sts등 back-end에서 사용 할 수 있는 언어들을 제공하고 있습니다.</p>
                     <p>
-                        <img src="img/java-icon.png" alt="" />
-                        <img src="img/js-icon.png" alt="" />
-                        <img src="img/spring-icon.png" alt="" />
+                        <img src="./img/java-icon.png" alt="" />
+                        <img src="./img/js-icon.png" alt="" />
+                        <img src="./img/spring-icon.png" alt="" />
                        
                     </p>
                 </div>
                 <div className="box">
                     <p>Database</p>
                     <p>저희 JCM은 사용자에게 Database를 편하게 관리하고 사용 할 수 있게 코드를 제공합니다.</p>
-                    <p> <img src="img/db-icon.png" alt="" /></p>
+                    <p> <img src="./img/db-icon.png" alt="" /></p>
                 </div>
                 <div className="box">
                     <p>Server, collaboration</p>
@@ -107,8 +107,8 @@ const MainReferences =() => {
                        그리고 깃을 사용하며 프로젝트를 관리하는 법을 알려드립니다 !
                     </p>
                     <p>
-                        <img src="img/tomcat-icon.png" alt="" />
-                        <img src="img/github-icon.png" alt="" />
+                        <img src="./img/tomcat-icon.png" alt="" />
+                        <img src="./img/github-icon.png" alt="" />
                     </p>
                 </div>
                 </div>
