@@ -1,17 +1,22 @@
-/* Chat.css */
-.admin-main {
+.chat-main { /* 일치하도록 소문자로 작성 */
     display: flex;
     margin-top: 70px;
     color: black;
 }
+.chat-main h1{
+    color: rgb(156, 156, 156);
+}
 
-.admin-main .main-content {
+/* 메인 콘텐츠 */
+.chat-main .main-content {
     flex-grow: 1;
     padding: 20px;
     background-color: white;
     height: 100vh;
 }
 
-.admin-main .chat h2, .admin-main .chat p {
+
+
+.chat-main .chat h2, .chat p{
     color: black;
 }
