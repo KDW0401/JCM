@@ -1,4 +1,5 @@
 // App.js
+import './App.css?v=1.0';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -35,7 +36,7 @@ import TechIntro from './components/techIntro/TechIntro';
 
 function App() {
   return (
-    <BrowserRouter basename='JCM'>
+    <BrowserRouter basename='/JCM'>
       <MenuBar />
       <main>
         <Routes>
