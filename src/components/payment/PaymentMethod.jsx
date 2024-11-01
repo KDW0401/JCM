@@ -5,7 +5,7 @@ const PayHistory = () => {
     return(
         <>
           <div className="payment-banner">
-                    <img src="/img/paymentBaner.png" alt="paymentbanner" />
+                    <img src="img/paymentBaner.png" alt="paymentbanner" />
                 </div>
         <div class="payment-method">
             <h3>결제 관리</h3>

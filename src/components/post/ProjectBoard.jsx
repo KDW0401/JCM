@@ -10,7 +10,7 @@ const ProjectBoard = () => {
     return (
         <div className="project-container">
             <div className="project-banner">
-                <img src="/img/banner.png" alt="Banner" />
+                <img src="img/banner.png" alt="Banner" />
                 <h1>프로젝트 게시판</h1>
             </div>
             <div className="project-header">

@@ -75,7 +75,7 @@ const CompIntroduce = () => {
                 </Helmet>
             <div className="timeline">
                 <div className="timeline-container left-container">
-                    <img src="/img/timeline01.png" alt="타임라인"/> 
+                    <img src="img/timeline01.png" alt="타임라인"/> 
                     <div className="text-box">
                         <h2>Project personnel</h2>
                         <small>24.09.20 - 24.09.24</small>
@@ -86,7 +86,7 @@ const CompIntroduce = () => {
                 </div>
 
                 <div className="timeline-container right-container">
-                    <img src="/img/timeline02.png" alt="타임라인"/>
+                    <img src="img/timeline02.png" alt="타임라인"/>
                     <div className="text-box">
                         <h2>Create a team name</h2>
                         <small>24.09.24 - 24.09.26</small>
@@ -96,7 +96,7 @@ const CompIntroduce = () => {
                 </div>
 
                 <div className="timeline-container left-container">
-                    <img src="/img/timeline03.png" alt="타임라인"/>
+                    <img src="img/timeline03.png" alt="타임라인"/>
                     <div className="text-box">
                         <h2>Project planning</h2>
                         <small>24.09.26 - 24.09.30</small>
@@ -106,7 +106,7 @@ const CompIntroduce = () => {
                 </div>
 
                 <div className="timeline-container right-container">
-                    <img src="/img/timeline04.png" alt="타임라인"/>
+                    <img src="img/timeline04.png" alt="타임라인"/>
                     <div className="text-box">
                         <h2>Configuring a Project</h2>
                         <small>24.09.30 - 24.10.28</small>
@@ -116,7 +116,7 @@ const CompIntroduce = () => {
                 </div>
 
                 <div className="timeline-container left-container">
-                    <img src="/img/timeline05.png" alt="타임라인"/>
+                    <img src="img/timeline05.png" alt="타임라인"/>
                     <div className="text-box">
                         <h2>Project completion</h2>
                         <small>24.10.28 - 24.11.25</small>
@@ -159,17 +159,17 @@ const CompIntroduce = () => {
                         <p>Project Manager</p>
                     </div>
                     <div className="team-card">
-                        <img src="/img/Zeus.jpg" alt="프로필사진" />
+                        <img src="img/Zeus.jpg" alt="프로필사진" />
                         <h3>Zeus</h3>
                         <p>Project Member</p>
                     </div>
                     <div className="team-card">
-                        <img src="/img/Download.jpg" alt="프로필사진" />
+                        <img src="img/Download.jpg" alt="프로필사진" />
                         <h3>Download</h3>
                         <p>Project Member</p>
                     </div>
                     <div className="team-card">
-                        <img src="/img/2weeks.jpg" alt="프로필사진" />
+                        <img src="img/2weeks.jpg" alt="프로필사진" />
                         <h3>2weeks</h3>
                         <p>Project Member</p>
                     </div>

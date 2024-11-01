@@ -25,7 +25,7 @@ const SignIn = () => {
             <div className='signIn-main'>
                 <div className="image-section">
                     <video muted autoPlay loop>
-                        <source src='/resources/login.mp4' type="video/mp4" />
+                        <source src='resources/login.mp4' type="video/mp4" />
                     </video>
                 </div>
 
