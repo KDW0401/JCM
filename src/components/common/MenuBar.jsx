@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import '../../css/common/MenuBar.css';
+import '../../css/common/MenuBar.css?v=1.0';
 
 const MenuBar = () => {
     return(

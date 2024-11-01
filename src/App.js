@@ -1,7 +1,6 @@
 // App.js
 import './App.css?v=1.0';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MenuBar from './components/common/MenuBar';
