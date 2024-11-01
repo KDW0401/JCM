@@ -5,3 +5,11 @@
 # [2024.10.28] typed.js
 
 # [2024.10.29] react-helmet
+
+# [2024.10.30] react-fullpage
+
+# [2024.10.31] framer-motion
+# [2024.10.31] react-quill
+# [2024.10.31] chart.js
+
+# [2024.11.01] react-icons

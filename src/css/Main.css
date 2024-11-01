@@ -1,11 +1,16 @@
+::-webkit-scrollbar{
+  display: none;
+}
+
 .main-top {
-    height: 120vh;
+    height: 100vh;
+    width: 100vw;
   }
   
   .main-top .center-logo {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 50vh;
+    left: 50vw;
     transform: translate(-50%, -50%);
     text-align: center;
   }
@@ -22,20 +27,19 @@
   }
 
   .main-top .bg-video {
-    position: absolute;
-    top: 5vh;
-    left: -100;
-    width: 100%;
+    height: 98vh;
+    width: 100vw;
     z-index: -1;
     background-size: cover;
+    object-fit: cover;
     }
 
 
  /* 점을 배치할 SVG 스타일 */
 .dot-container {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 50vh;
+  left: 50vw;
   width: 500px;
   height: 500px;
   transform: translate(-50%, -50%);
@@ -180,14 +184,15 @@
 
   /* 메인페이지 main-introduce */
   .main-introduce {
-    height: 60vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .main-introduce .box {
-    width: 800px;
-    height: 500px;
+    width: 700px;
+    height: 600px;
     text-align: center;
     font-size: 1.5rem; /* 글자 크기 조정 */
     letter-spacing: 0.2em;
@@ -200,9 +205,9 @@
 
   .main-introduce .bg-video {
   position: absolute;
-  top: 110vh;
-  left: -100;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
   z-index: -1;
   background-size: cover;
   }
@@ -210,7 +215,8 @@
 
   /* 메인페이지 main-simulation */
   .main-simulation {
-    height: 150vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,22 +224,24 @@
   }
   
   .main-simulation .text {
-    width: 90%;
+  
     text-align: left;
     margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.4em;
   }
 
   .main-simulation .text .title {
     font-size: xx-large;
     font-weight: 800;
-    margin: 15px;
-    margin-left: 30px;
+    text-align: center;
+
   }
 
   .main-simulation .box {
     border: 2px solid #fff; /* 흰색 테두리 */
-    width: 800px;
-    height: 400px;
+    width: 1000px;
+    height: 600px;
     text-align: center;
     font-size: 1.5rem; /* 글자 크기 조정 */
     letter-spacing: 0.2em;
@@ -246,7 +254,8 @@
 
   /* 메인페이지 main-reference */
   .main-reference {
-    height: 110vh;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -269,15 +278,15 @@
   .main-reference .box {
     border: 2px solid #fff;
     width: 250px;
-    height: 550px;
+    height: 460px;
     text-align: center;
     font-size: 1.5rem;
-    letter-spacing: 0.2em;
-    line-height: 2em;
+    line-height: 1em;
+    padding: 20px;
     display: flex;
     flex-direction: column;
   }
-  .main-reference .box  img{
+  .main-reference .box img{
     display: flex; 
     align-items: flex-end;
     width: 45px;
@@ -311,6 +320,8 @@
     font-size: 12px;
     line-height: 30px;
     margin: 10px;
+    padding: 6px;
+    word-break: keep-all;
   }
   .main-reference .box p:nth-child(3){
     display: flex;
@@ -319,6 +330,12 @@
     height: 100%; /* 전체 높이 차지 */
     position: relative;
   }
+
+  .main-reference .box p img{
+    width: 50px;
+    height: auto;
+  }
+
 
   .main-reference .reference-list {
     display: flex;
@@ -332,6 +349,7 @@
   /* 메인페이지 main-describe */
   .main-describe {
     height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -345,7 +363,7 @@
   }
 
   .main-describe .text .title {
-    font-size: xx-large;
+    font-size: 1.8em;
     font-weight: 800;
     margin: 15px;
     margin-left: 30px;
@@ -353,8 +371,8 @@
 
   .main-describe .box {
     border: 2px solid #fff;
-    width: 80%;
-    height: 700px;
+    width: 1000px;
+    height: 600px;
     text-align: center;
     font-size: 1.5rem;
     letter-spacing: 0.2em;
@@ -367,7 +385,8 @@
 
    /* 메인페이지 main-method */
   .main-method {
-    height: 120vh;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -381,7 +400,7 @@
   }
 
   .main-method .text .title {
-    font-size: xx-large;
+    font-size: 1.8em;
     font-weight: 800;
     margin: 15px;
     margin-left: 30px;
@@ -389,8 +408,8 @@
 
   .main-method .box {
     border: 2px solid #fff;
-    width: 80%;
-    height: 700px;
+    width: 1000px;
+    height: 600px;
     text-align: center;
     font-size: 1.5rem;
     letter-spacing: 0.2em;
@@ -403,18 +422,20 @@
 
   /* 메인페이지 main-email */
   .main-email {
-    height: 80vh;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    overflow: hidden;
   }
   
   .main-email .box {
     border: 2px solid #fff;
     width: 65%;
-    height: 700px;
+    height: 550px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -438,29 +459,30 @@
   }
 
   .main-email .box input {
-    width: 400px;
+    width: 40%;
     height: 30px;
     margin: 10px 0px;
     border: #888 solid 0.2px;
     border-radius: 7px;
-    padding: 0px 5px;
+    padding: 0px 10px;
   }
 
   .main-email .box textarea {
-    width: 400px;
+    width: 40%;
     height: 100px;
     margin: 10px 0px;
     border: #888 solid 0.2px;
     border-radius: 7px;
     resize: none;
     font-family: Arial, sans-serif;
-    padding: 5px;
+    padding: 0 5px;
   }
   
   .main-email .box button {
     width: 250px;
     height: 40px;
     margin: 10px 0px; 
+    padding: 0 5px;
     background-color: #111;
     border: none;
     border-radius: 5px;
@@ -468,3 +490,5 @@
     font-weight: 700;
     font-size: medium;
   }
+
+

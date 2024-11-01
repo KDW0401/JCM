@@ -1,0 +1,22 @@
+.chat-main{
+    display: flex;
+    margin-top: 70px;
+    color: black;
+}
+.chat-main h1{
+    color: rgb(156, 156, 156);
+}
+
+/* 메인 콘텐츠 */
+.chat-main .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+    height: 100vh;
+}
+
+
+
+.chat-main .chat h2, .chat p{
+    color: black;
+}
